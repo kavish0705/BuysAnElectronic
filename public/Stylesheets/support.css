@@ -1,0 +1,192 @@
+body {
+  background-image: url('https://d16pnh712pyiwa.cloudfront.net/wp-content/uploads/2019/07/support.png');
+  background-size: contain;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown {
+  margin: 0;
+}
+
+nav {
+  height: 85px;
+  background: black;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  padding: 5px 0 0 80px;
+  width: 230px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+
+  margin-right: 30px;
+}
+
+nav ul li {
+  background: black;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 15px;
+  padding-bottom: 12px;
+  color: yellow;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  background: #243342;
+  color: yellow;
+  text-decoration: none;
+}
+
+nav ul ul {
+  position: fixed;
+  top: 20;
+  left: 50;
+  z-index: 50;
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul li {
+  width: 300px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+label {
+  color: black;
+  font-family: 'Alatsi';
+  font-size: 22px;
+}
+
+#title {
+  letter-spacing: 2px;
+  font-family: 'Secular One';
+  font-size: 30px;
+  width: 800px;
+  background-color: rgb(0, 0, 0, 0.6);
+  margin: auto;
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.container {
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  color: rgba(230, 230, 230, 0.7);
+}
+
+#error_message1 {
+  color: red;
+  font-family: 'Headland One';
+  font-size: 22px;
+  margin: auto;
+  width: 770px;
+  margin-bottom: 10px;
+  padding: 0px;
+  background: inherit;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+#error_message2 {
+  color: red;
+  font-family: 'Headland One';
+  font-size: 22px;
+  margin: auto;
+  width: 770px;
+  margin-bottom: 10px;
+  padding: 0px;
+  background: inherit;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+#error_message3 {
+  color: red;
+  font-family: 'Headland One';
+  font-size: 22px;
+  margin: auto;
+  width: 770px;
+  margin-bottom: 10px;
+  padding: 0px;
+  background: inherit;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+#error_message4 {
+  color: red;
+  font-family: 'Headland One';
+  font-size: 22px;
+  margin: auto;
+  width: 770px;
+  margin-bottom: 10px;
+  padding: 0px;
+  background: inherit;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+#error_message5 {
+  color: red;
+  font-family: 'Headland One';
+  font-size: 22px;
+  margin: auto;
+  width: 770px;
+  margin-bottom: 10px;
+  padding: 0px;
+  background: inherit;
+  text-align: center;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+div .col {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+div .form-group {
+  padding-top: 7px;
+}
+.bottom {
+  padding-top: 15px;
+  margin-left: 100px;
+}
+.bottom-container {
+  font-family: 'Averia Serif Libre';
+  font-size: 22px;
+  background: #34495e;
+  border-bottom: 2px solid white;
+  color: white;
+  margin-top: 30px;
+}
+.bottom-container p {
+  font-family: 'Averia Serif Libre';
+  font-size: 16px;
+}
+h3 {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 2px;
+}
+form {
+  padding-bottom: 30px;
+}

@@ -1,0 +1,275 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: #f8ffba;
+}
+
+.flex {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+/* start: header styles */
+header {
+  background-color: black;
+  padding: 20px 0;
+  position: relative;
+  border-bottom: 1px solid blue;
+}
+
+.logo a img {
+  height: 60px;
+  width: 150px;
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 3px 5px;
+  width: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger-menu .strip {
+  display: block;
+  height: 1px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 20px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1.25em;
+  margin: 0 18px;
+}
+
+nav ul li a {
+  color: yellow;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+/* end: header styles */
+
+/*Jquery slider carousel  DAKSHIL SLIDER*/
+
+.container1 {
+  width: 100%;
+  /*margin:40px auto;*/
+  overflow: auto;
+  background: white;
+}
+
+.slider-inner {
+  width: 91%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+.slider-inner img {
+  display: none;
+  width: 100%;
+  height: 450px;
+}
+
+.slider-inner img.active {
+  display: inline-block;
+}
+
+.prev,
+.next {
+  float: left;
+  /*margin-top:130px;*/
+  cursor: pointer;
+}
+
+.prev {
+  padding-top: 180px;
+  position: relative;
+  float: left;
+  z-index: 100;
+}
+
+.next {
+  padding-top: 180px;
+  position: relative;
+  float: right;
+  z-index: 100;
+}
+/*DAKSHIL SLIDER END*/
+
+/* start: animation slide  DHRUV SLIDER */
+/*@keyframes slider
+{
+    0%
+    {
+        left: 0%;
+    }
+    20%
+    {
+        left: 0%;   
+    }
+    25%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    70%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+        
+}
+
+#slider
+{
+    overflow: hidden;
+    padding-bottom: 0 20px;
+}
+
+#slider figure img
+{   
+    padding-bottom: 10px;
+    width: 20%;
+    float:left;
+}
+
+#slider figure
+{
+    position:relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+/* end: animation slider; */
+/*DHRUV SLIDER END*/
+
+.bottom {
+  padding-top: 15px;
+  margin-left: 100px;
+}
+.bottom-container {
+  font-family: 'Averia Serif Libre';
+  font-size: 22px;
+  background: #343a40;
+  border-bottom: 2px solid white;
+  color: white;
+  line-height: 0.8;
+}
+.bottom-container p {
+  font-family: 'Averia Serif Libre';
+  font-size: 16px;
+}
+h2 {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  cursor: pointer;
+}
+.card {
+  height: 400px;
+}
+.card-title {
+  text-align: center;
+}
+.card-img-top {
+  width: auto;
+  height: 200px;
+}
+
+/* start: media queries */
+@media (max-width: 1200px) {
+  .flex {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 991px) {
+  .flex {
+    max-width: 720px;
+  }
+
+  nav ul li {
+    margin: 0 12px;
+    font-size: 0.85em;
+  }
+} /* end 991px */
+
+@media (max-width: 767px) {
+  .flex {
+    max-width: 540px;
+  }
+
+  nav ul {
+    display: none;
+    position: absolute;
+    top: 101%;
+    width: 100%;
+    background-color: #131313;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 15px 0 15px 20px;
+    border-bottom: 1px solid #ffb320;
+    margin: 0;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  .hamburger-menu {
+    display: block;
+    margin-top: 2px;
+  }
+} /* end 767px */
+
+@media (max-width: 400px) {
+  .logo a img {
+    width: 150px;
+    margin: 2px;
+  }
+}
+/* end: media queries */
